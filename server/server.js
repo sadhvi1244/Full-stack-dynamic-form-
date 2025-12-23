@@ -29,7 +29,7 @@ const frontendUrl =
 
 app.use(
   cors({
-    origin: [frontendUrl, "http://localhost:5173"],
+    origin: [frontendUrl, "http://:5173"],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
